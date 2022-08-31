@@ -55,7 +55,7 @@ class createDatabase:
                 writeFile.write(str(i)+sep+writeLine+'\n')
                 
         writeFile.close()
-
+    #
     def saveAsUtilityTransactionalDB(self, outputFile, sep):
          writeFile = open(outputFile, 'w')
          for i in range(len(self.itemList)):
